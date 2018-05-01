@@ -19,3 +19,17 @@ I see exactly the same response with this client and server than I did with sqrl
 1. On startup, 0% CPU
 2. The first request brings the CPU to 100%
 3. CPU stays at 100% until the server is killed
+
+## Building
+
+This should build on any linux box that has the GTK-2.0 DEV libraries installed.
+
+The build steps are pretty simple since there is already a Makefile in place:
+
+    cd src
+    make
+
+## Request for help
+
+If you know why the CPU pegs to 100% in this configuration, and know the solution, please share.  Feel free to ping me via github or clone this project, fix it, and send me a pull request.  Thank you!
+
